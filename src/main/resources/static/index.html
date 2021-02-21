@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>FRIIS N MATTE GOES TO WAR</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <p>Welcome to the awesome website. Currently, only Movie Analyzer is available. To try it, press the link below.</p>
-    <p>Movie Analyser: <a href ="/movieAnalyzer">press</a></p>
+    <section class ="intro">
+        <p>Welcome to the awesome website. Currently, only Movie Analyzer is available. To try it, press the button below.</p>
+        <button class="movie-analyzer-button" onclick="window.location='/movieAnalyzer';">Movie Analyzer</button>
+    </section>
+
+    <footer class="indexFooter">
+    <p>Button below to see github repository</p>
+    <button class="repo-button" onclick="window.location='https://github.com/Nezzar064/MovieAnalyzerV2';">src code</button>
+    </footer>
+
 </body>
 </html>

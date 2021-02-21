@@ -12,7 +12,7 @@ public class MovieAnalysisService {
 
     public MovieAnalysisService() {
 
-        File movieFile = new File("src/main/resources/static/film-new.csv");
+        File movieFile = new File("src/main/resources/static/files/film-new.csv");
 
         try {
             Scanner scanOfMovieFile = new Scanner(movieFile);
