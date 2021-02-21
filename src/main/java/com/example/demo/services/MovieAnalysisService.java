@@ -48,8 +48,8 @@ public class MovieAnalysisService {
     }
 
 
-    public Movie getFirstMovieOfList() {
-        return movieList.get(0);
+    public List<Movie> getAllMovies() {
+        return movieList;
     }
 
 

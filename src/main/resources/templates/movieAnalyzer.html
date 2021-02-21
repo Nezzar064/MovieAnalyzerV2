@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="eng">
 <head>
     <meta charset="UTF-8">
     <title>MovieAnalyzer</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/movieAnalyzer.css}"/>
 </head>
 <body>
-    <section class ="intro">
+    <section class ="analyzerIntro">
         <h1>Welcome to MovieAnalyzer</h1>
-        <br>
-        <p>Movie Analyzer has the following endpoints available:</p>
-        <br>
+    </section>
+    <section class="links-for-features">
+        <p class="p1">Movie Analyzer has the following endpoints available:</p>
         <p>1. Finds the first movie from the list</p>
         <button class="button-4" onclick="window.location='/movieAnalyzer/getFirst';">First Movie</button>
         <br>

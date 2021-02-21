@@ -1,0 +1,41 @@
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.analyzerIntro {
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+    margin-left: -450px;
+    margin-top: -200px;
+}
+
+.links-for-features {
+    font-size: 18px;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -450px;
+    margin-top: 10px;
+}
+
+.button-4 {
+    border: 2px solid black;
+    font-size: 14px;
+}
